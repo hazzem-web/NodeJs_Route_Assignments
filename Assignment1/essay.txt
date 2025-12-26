@@ -1,0 +1,34 @@
+//3: 
+
+== : make a value equality 
+=== : make a type and value equality 
+
+//4 :
+
+try-catch is a way of error (exception) handling that take a code and try to run it if ok
+if you get error you can catch it and make an error handling such a readble error message or 
+classify this error like (division by zero error)
+
+in async operation it's important because you make a request to the server if this request not work 
+you have a status code you can return it like 404 and you can handle it to handle errors 
+
+
+//5 : 
+
+type conversion : is the way to convert any type of data to another type like i want a number of string "123" 
+let x = "123" 
+console.log (typeof Number(x) ) 
+
+
+type corecion : 1- if you make concatination between string and number the output type is string 
+                2- if you but a minus between number and str the output type is number 
+
+x = 8;
+x+= "2";
+console.log(x);
+console.log(typeof x);
+
+z = "8"
+z-= 2
+console.log(z);
+console.log(typeof z)
