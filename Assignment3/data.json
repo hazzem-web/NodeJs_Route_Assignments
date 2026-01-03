@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Hazzem",
+    "age": 20,
+    "email": "hazzem.eljoker@gmail.com",
+    "city": "Alex"
+  },
+  {
+    "id": 2,
+    "name": "faris",
+    "age": 21,
+    "email": "faris.eljoker@gmail.com",
+    "city": "egypt"
+  },
+  {
+    "id": 3,
+    "name": "mohammed",
+    "age": 25,
+    "email": "hamo.eljoker@gmail.com",
+    "city": "Alex"
+  },
+  {
+    "id": 4,
+    "name": "zoma",
+    "age": 30,
+    "email": "zoma.eljoker@gmail.com",
+    "city": "Hurghada"
+  },
+  {
+    "id": 5,
+    "name": "hazem Elfager",
+    "age": 15,
+    "email": "messi.eljoker@gmail.com",
+    "city": "Cairo"
+  },
+  {
+    "id": 6,
+    "name": "Hazzemking",
+    "age": 25,
+    "email": "BashaElbashaHazzem@gmail.com",
+    "city": "alex"
+  }
+]

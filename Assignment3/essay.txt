@@ -1,0 +1,30 @@
+1 - Event Loop :     takes your code and cetgorize it to 3 main catgories by this order
+                     1- timersOperartion (setTimeout , setInterval , setImmediate)
+                     2- longRunningOperation (fileSystem , crypto)
+                     3- osOperation (HTTP Server)
+                     implement this code by this priority (Non_Blocking)
+
+
+2 - Llibuv : is a pure(100%) c++ library that handle complex operations in NodeJs that Js can't handle 
+             resopnsible for async i/o , fileSystem in your code 
+
+
+
+3 - NodeJs handle async operations with libuv , v8 as v8 takes your written code and convert it to c++ and send it to libuv
+    libuv can handle async functions by c++ as it's low-level language and can can access your memory and i/o
+   
+
+
+4 - call satck  : is the order of operations last in first out (LIFO)
+    Event Queue : is the order or priority of operations in your code ( who is first ) first in fisrt out (FIFO)
+    Event Loop  : handling the sync , async operations in your code when you run the project (with libuv , v8)  
+
+5 - ThreadPool is a simulation of parallel programming using javaScript that's allow to run 4 threads in one process by default
+    you can custmize the number of threads by chanaging the variable UV_ThreadPool 
+
+
+
+6 - Blocking     : js wait untill the blocking code execution synchronuns operation , line by line and wait this blocking code 
+
+    Non-Blocking : asynchronuns code , js implement the other functions in the code untill the Non_Blocking code implement thier opeartions
+                   not affect the other parts of code this is by event loop structure 
