@@ -1,7 +1,11 @@
-import { sequelize } from "../connection.js";
-import { DataTypes } from 'sequelize';
+import { Model , DataTypes } from 'sequelize';
+import { userModel } from "./user.model.js";
+import { sequelize } from '../connection.js';
 
-export const postModel = sequelize.define('posts',{
+
+export class postModel extends Model {};
+
+postModel.init({    
     id:{
         type:DataTypes.INTEGER,
         primaryKey:true,
@@ -18,6 +22,15 @@ export const postModel = sequelize.define('posts',{
         allowNull:false
     },
     userID:{
-        
-    }
+        type:DataTypes.INTEGER,
+        allowNull:false,
+        references:{
+            model:userModel,
+            key:'userID'
+        }
+    },
+},{
+    sequelize,
+    paranoid:true,
+    modelName:'posts'
 })
