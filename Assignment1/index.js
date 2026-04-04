@@ -96,7 +96,6 @@ const getWeekDays = (day)=> {
     switch (day) {
         case 1:
             return "Sunday"
-            // محطتش break عشان الكود بيوقف بعد ال return
         case 2:
             return "Monday"
         case 3: 
@@ -186,7 +185,6 @@ DivisableChecker(5)
 DivisableChecker(15)
 DivisableChecker(17)
 DivisableChecker('gpkmew')
-//الموضوع كبر مني شوية بس اتحدي يكون حد مهندلها بالشكل دا
 */
 
 //=======================================================
@@ -256,8 +254,6 @@ function getSum() {
 }
 
 console.log(getSum(1,2,3,4,5)) 
-
-// هنا الموضوع كان قايم علي التجربة عشان لقيت جوا ال function propertyاسمها arguments وعرفت اوصل منها لل parameters
 
 
 
