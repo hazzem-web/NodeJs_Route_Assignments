@@ -1,7 +1,7 @@
 import { Op } from 'sequelize';
 import { postModel } from '../../database/models/post.model.js';
 import { userModel } from '../../database/models/user.model.js';
-import { commentModel } from './../../database/models/comment.model.js';
+import { commentModel } from '../../database/models/comment.model.js';
 
 const addComments = async (data)=> {
     const filterdComments = data.filter(comment => comment.content && comment.userID && comment.postID);
